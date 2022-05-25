@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'BeVietnamPro-Regular';
+  src: local('BeVietnamPro-Regular'), url('../font/basic/BeVietnamPro-Regular.ttf') format('ttf');
+  src: local('BeVietnamPro-Regular'), url('../font/basic/BeVietnamPro-Regular.woff') format('woff');
+  src: local('BeVietnamPro-Regular'), url('../font/basic/BeVietnamPro-Regular.woff2') format('woff2');
+}
+
+body{
+  background-color: white;
+  font-family:'BeVietnamPro-Regular';
+  overflow-x: hidden;
+  overflow-y:scroll;
+  height: auto;
+}
+
+img{
+    width: -webkit-fill-available;
+  }
+
+.navbar{
+  background-color: transparent;
+  color: white;
+  text-align: right;
+  cursor: pointer;
+  margin-right: 0;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.navbar-light .navbar-brand, .nav-item, .nav-link {
+    color: white;
+}
