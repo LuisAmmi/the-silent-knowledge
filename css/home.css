@@ -38,3 +38,7 @@ img{
 .navbar-light .navbar-brand, .nav-item, .nav-link {
     color: white;
 }
+#specialtext{
+  font-size: 400%;
+  margin-top: 30%;
+}
